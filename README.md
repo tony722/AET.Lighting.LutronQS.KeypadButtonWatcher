@@ -21,7 +21,7 @@ To publish a Google Sheet as a csv:
 2. Under "Link" select the sheet you want to publish.
 3. Under "Embed" select Comma-separated values (.csv) 
 4. Hit Publish
-5. Copy the provided URL and use that in your code.
+5. Copy the provided URL and put it in the parameter in the SIMPL+ module.
 
 ### SIMPL# Pro
 This module can be easily adapted to SIMPL# Pro. Look at the included SIMPL+ module to see what methods and delegates to utilize.
