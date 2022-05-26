@@ -10,7 +10,7 @@ This module relies on a Google Sheet for configuration. The sheet is downloaded 
 To use this sheet as a template, open it and go to "File->Make A Copy" and save it in your own Google Drive.
 
 * Row 1 is required: it is the column headers (the names of each column)
-* Column A is required. Cell A1 must be "Keypads"
+* Column A is required. Cell A1 must be "Keypads". _(All other cells in this column must be blank.)_
 * Column B is required. It is the LutronQS Integration Id for the keypad and the button number (Id,button). e.g. 37,6
 * Column C is required. It is the group number of output on the SIMPL+ module. 
 * Column D is required. It is the output number in the group on the SIMPL+ module.
