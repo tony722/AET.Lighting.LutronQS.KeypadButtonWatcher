@@ -2,7 +2,7 @@
 
 ### Provides a Crestron Simpl# library for watching buttons being pressed on LutronQS keypads and making them available to Crestron programs. 
 
-[Download latest version here: v1.0.0](https://github.com/tony722/https://github.com/tony722/AET.Lighting.LutronQS.KeypadButtonWatcher/releases/download/v1.0.0/AET.Lighting.LutronQS.KeypadButtonWatcher.v1.0.0.zip)
+[Download latest version here: v1.0.0](https://github.com/tony722/AET.Lighting.LutronQS.KeypadButtonWatcher/releases/download/v1.0.0/AET.Lighting.LutronQS.KeypadButtonWatcher.v1.0.0.zip)
 
 ### Requirements for Google Sheet.
 This module relies on a Google Sheet for configuration. The sheet is downloaded by the processor, and cached in case the Internet is unavailable.
