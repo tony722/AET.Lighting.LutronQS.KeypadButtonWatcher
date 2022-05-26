@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AET.Lighting.LutronQS.KeypadButtonWatcher VS2022", "AET.Lighting.LutronQS.KeypadButtonWatcher\AET.Lighting.LutronQS.KeypadButtonWatcher VS2022.csproj", "{74632E56-B9A3-40E8-893F-85484958AC3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Referenced Projects", "Referenced Projects", "{9BF8573A-B677-45DF-80FE-C793083F9109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AET.Unity.GoogleSheetsReader 2019", "..\AET.Unity.GoogleSheetsReader\AET.Unity.GoogleSheetsReader\AET.Unity.GoogleSheetsReader 2019.csproj", "{336ED991-9AC1-496D-B23C-91EE14F95225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AET.Unity.SimplSharp VS2019", "..\AET.Unity.SimplSharp\AET.Unity.SimplSharp\AET.Unity.SimplSharp VS2019.csproj", "{9727A743-5F36-49E7-A85F-DBD55379ABF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AET.Lighting.LutronQS.KeypadButtonWatcher.Tests", "AET.Lighting.LutronQS.KeypadButtonWatcher.Tests\AET.Lighting.LutronQS.KeypadButtonWatcher.Tests.csproj", "{16D09762-22A4-486B-A578-A0196E5DAA31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74632E56-B9A3-40E8-893F-85484958AC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74632E56-B9A3-40E8-893F-85484958AC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74632E56-B9A3-40E8-893F-85484958AC3C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74632E56-B9A3-40E8-893F-85484958AC3C}.Debug|x86.Build.0 = Debug|Any CPU
+		{74632E56-B9A3-40E8-893F-85484958AC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74632E56-B9A3-40E8-893F-85484958AC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74632E56-B9A3-40E8-893F-85484958AC3C}.Release|x86.ActiveCfg = Release|Any CPU
+		{74632E56-B9A3-40E8-893F-85484958AC3C}.Release|x86.Build.0 = Release|Any CPU
+		{336ED991-9AC1-496D-B23C-91EE14F95225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336ED991-9AC1-496D-B23C-91EE14F95225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336ED991-9AC1-496D-B23C-91EE14F95225}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{336ED991-9AC1-496D-B23C-91EE14F95225}.Debug|x86.Build.0 = Debug|Any CPU
+		{336ED991-9AC1-496D-B23C-91EE14F95225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336ED991-9AC1-496D-B23C-91EE14F95225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336ED991-9AC1-496D-B23C-91EE14F95225}.Release|x86.ActiveCfg = Release|Any CPU
+		{336ED991-9AC1-496D-B23C-91EE14F95225}.Release|x86.Build.0 = Release|Any CPU
+		{9727A743-5F36-49E7-A85F-DBD55379ABF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9727A743-5F36-49E7-A85F-DBD55379ABF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9727A743-5F36-49E7-A85F-DBD55379ABF9}.Debug|x86.ActiveCfg = Debug|x86
+		{9727A743-5F36-49E7-A85F-DBD55379ABF9}.Debug|x86.Build.0 = Debug|x86
+		{9727A743-5F36-49E7-A85F-DBD55379ABF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9727A743-5F36-49E7-A85F-DBD55379ABF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9727A743-5F36-49E7-A85F-DBD55379ABF9}.Release|x86.ActiveCfg = Release|x86
+		{9727A743-5F36-49E7-A85F-DBD55379ABF9}.Release|x86.Build.0 = Release|x86
+		{16D09762-22A4-486B-A578-A0196E5DAA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D09762-22A4-486B-A578-A0196E5DAA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D09762-22A4-486B-A578-A0196E5DAA31}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{16D09762-22A4-486B-A578-A0196E5DAA31}.Debug|x86.Build.0 = Debug|Any CPU
+		{16D09762-22A4-486B-A578-A0196E5DAA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D09762-22A4-486B-A578-A0196E5DAA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D09762-22A4-486B-A578-A0196E5DAA31}.Release|x86.ActiveCfg = Release|Any CPU
+		{16D09762-22A4-486B-A578-A0196E5DAA31}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{336ED991-9AC1-496D-B23C-91EE14F95225} = {9BF8573A-B677-45DF-80FE-C793083F9109}
+		{9727A743-5F36-49E7-A85F-DBD55379ABF9} = {9BF8573A-B677-45DF-80FE-C793083F9109}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5C6A29C-0125-4125-9F9C-9CE0B21301F0}
+	EndGlobalSection
+EndGlobal

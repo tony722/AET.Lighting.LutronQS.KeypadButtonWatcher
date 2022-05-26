@@ -1,0 +1,74 @@
+#DEFINE_CONSTANT MAX_OUTPUTS 50
+/*******************************************************************************************
+  SIMPL+ Module Information
+*******************************************************************************************/
+
+/*******************************************************************************************
+  Compiler Directives
+*******************************************************************************************/
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+// #DIGITAL_EXPAND 
+// #ANALOG_SERIAL_EXPAND 
+//#CATEGORY "46" "ADAPT Displays" // Custom
+// #ENABLE_TRACE
+//#HELP_BEGIN
+//#HELP_END
+
+/*******************************************************************************************
+  Include Libraries
+*******************************************************************************************/
+#INCLUDEPATH "Z:\\Library\\AET\\SIMPL#\\AET.Lighting.LutronQS.KeypadButtonWatcher\\AET.Lighting.LutronQS.KeypadButtonWatcher\\bin\\Release"
+#USER_SIMPLSHARP_LIBRARY "AET.Lighting.LutronQS.KeypadButtonWatcher"
+
+/*******************************************************************************************
+  DIGITAL, ANALOG and SERIAL INPUTS and OUTPUTS
+*******************************************************************************************/
+DIGITAL_INPUT _Skip_, _Skip_;
+DIGITAL_INPUT Initialize, Reload;
+STRING_INPUT  Lutron_RX$[255];
+
+DIGITAL_OUTPUT _Skip_, _Skip_, _Skip_, _Skip_;
+DIGITAL_OUTPUT Group_1[MAX_OUTPUTS], Group_2[MAX_OUTPUTS], Group_3[MAX_OUTPUTS];
+
+/*******************************************************************************************
+  Parameters
+*******************************************************************************************/
+
+/*******************************************************************************************
+  Parameter Properties
+  (Uncomment and declare parameter properties as needed)
+*******************************************************************************************/
+string_parameter GoogleSheetsUrl[255], CacheFilename[255];
+#BEGIN_PARAMETER_PROPERTIES CacheFilename
+   propDefaultValue = "\\NVRAM\\LutronButtonWatcher.csv";
+#END_PARAMETER_PROPERTIES
+
+/*******************************************************************************************
+  Global Variables
+*******************************************************************************************/
+KeypadButtonWatcher watcher;
+
+/*******************************************************************************************
+  Functions
+*******************************************************************************************/
+callback function SetGroup1(integer index, integer value) { Group_1[index] = value; }
+callback function SetGroup2(integer index, integer value) { Group_2[index] = value; }
+callback function SetGroup3(integer index, integer value) { Group_3[index] = value; }
+
+/*******************************************************************************************
+  Event Handlers
+*******************************************************************************************/
+PUSH Initialize {	watcher.Initialize(GoogleSheetsUrl, CacheFilename); }
+PUSH Reload { watcher.Reload(); }
+
+/*******************************************************************************************
+  Main()
+*******************************************************************************************/
+function Main() {
+	WaitForInitializationComplete();
+	RegisterDelegate(watcher, SetGroup1, SetGroup1);
+	RegisterDelegate(watcher, SetGroup2, SetGroup2);
+	RegisterDelegate(watcher, SetGroup3, SetGroup3);
+}
+
