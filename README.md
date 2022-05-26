@@ -5,7 +5,7 @@
 [Download latest version here: v1.0.0](https://github.com/tony722/AET.Lighting.LutronQS.KeypadButtonWatcher/releases/download/v1.0.0/AET.Lighting.LutronQS.KeypadButtonWatcher.v1.0.0.zip)
 
 ### Requirements for Google Sheet.
-This module relies on a Google Sheet for configuration. The sheet is downloaded by the processor, and cached in case the Internet is unavailable.
+This module relies on a Google Sheet for configuration, and this makes it really easy to configure, update, and maintain! The sheet is downloaded by the processor, and cached in case the Internet is unavailable at a later time.
 [See example Google Sheet here](https://docs.google.com/spreadsheets/d/1gqKyX94nDUOcLBB64_71M1E5LS90OLXfvoh7pt2Wmzc/edit?usp=sharing). 
 To use this sheet as a template, open it and go to "File->Make A Copy" and save it in your own Google Drive.
 
