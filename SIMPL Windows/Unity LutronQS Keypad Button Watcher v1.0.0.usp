@@ -19,7 +19,6 @@
 /*******************************************************************************************
   Include Libraries
 *******************************************************************************************/
-#INCLUDEPATH "Z:\\Library\\AET\\SIMPL#\\AET.Lighting.LutronQS.KeypadButtonWatcher\\AET.Lighting.LutronQS.KeypadButtonWatcher\\bin\\Release"
 #USER_SIMPLSHARP_LIBRARY "AET.Lighting.LutronQS.KeypadButtonWatcher"
 
 /*******************************************************************************************
