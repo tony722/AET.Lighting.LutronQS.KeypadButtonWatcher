@@ -6,4 +6,3 @@
 using System.Diagnostics.CodeAnalysis;
 
 [assembly: SuppressMessage("Style", "IDE0018:Inline variable declaration", Justification = "<Pending>", Scope = "member", Target = "~M:AET.Lighting.LutronQS.KeypadButtonWatcher.KeypadButtonWatcher.HandleButton(System.String)")]
-[assembly: SuppressMessage("Style", "IDE0018:Inline variable declaration", Justification = "<Pending>", Scope = "member", Target = "~M:AET.Lighting.LutronQS.KeypadButtonWatcher.KeypadButtonWatcher.ParseGoogleSheet(System.String)")]
